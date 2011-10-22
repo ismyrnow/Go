@@ -1,3 +1,6 @@
+README
+=====
+
 This project is a simple browser based implementation of the classic board game, Go, using HTML5 and JavaScript.
 
 To run: launch [go-h5.html] or [go-txt.html] in your browser.
