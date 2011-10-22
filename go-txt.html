@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>GO, by Ishmael</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="ish.go.js"></script>
+	<script src="ish.go.logic.js"></script>
+	<script src="ish.go.view.text.js"></script>
+	<link rel="stylesheet" href="style-txt.css" />
+</head>
+<body>
+
+	<div id="gameSection">
+		<div id="board"></div>
+		
+		<div id="info">
+			<div id="turn"></div>
+			<br>
+			<div id="score"></div>
+		</div>
+		
+		<div class="clear"></div>
+	</div>	
+	
+	<div id="devSection">
+		<div>
+			<span id="toggleLink" class="link" onclick="$('#devTools').slideToggle()">[Toggle Developer Tools]</span>
+		</div>
+		<div id="devTools">
+			<ul id="devActions">
+				<li class="link" onclick="Ish.Go.View.startNewGame()">New Game</li>
+				<li class="link" onclick="$('#score').toggle()">Toggle Scores</li>
+				<li class="link" onclick="Ish.Go.View.toggleMarkedBoard()">Toggle Territories</li>
+				<li class="link" onclick="Ish.Go.View.printGameState()">Print Game State</li>
+			</ul>
+			<div id="gameState"></div>
+		</div>
+	</div>
+	
+</body>
+</html>

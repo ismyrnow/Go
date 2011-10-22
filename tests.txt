@@ -1,0 +1,35 @@
+// test1: neutral territory
+gGameState = new GameState(
+	9,
+	9,
+	new Player(Constants.Color.BLACK, Constants.PointState.BLACK),
+	new Player(Constants.Color.WHITE, Constants.PointState.WHITE)
+);
+gGameState.currentPlayer = gGameState.player2;
+gGameState.board[0] = [".",".","X",".","X",".",".",".","."];
+gGameState.board[1] = [".","X",".","X","O",".",".","O","."];
+gGameState.board[2] = [".","X","X","O","O",".",".",".","O"];
+gGameState.board[3] = [".",".","X","X","O",".","O","O","X"];
+gGameState.board[4] = [".",".","X","O",".",".","O","X","X"];
+gGameState.board[5] = [".",".",".",".","O","O","X",".","X"];
+gGameState.board[6] = [".",".","X",".","O","X","X","X","X"];
+gGameState.board[7] = [".",".","X","O","O","O","X",".","O"];
+gGameState.board[8] = [".",".",".","X",".","O","X","O","."];
+
+// test2: owned territory
+gGameState = new GameState(
+	9,
+	9,
+	new Player(Constants.Color.BLACK, Constants.PointState.BLACK),
+	new Player(Constants.Color.WHITE, Constants.PointState.WHITE)
+);
+gGameState.currentPlayer = gGameState.player2;
+gGameState.board[0] = [".",".","X","X","X","O",".",".","."];
+gGameState.board[1] = [".","X",".","X","O",".",".","O","."];
+gGameState.board[2] = [".","X","X","O","O",".",".",".","O"];
+gGameState.board[3] = [".",".","X","X","O",".","O","O","X"];
+gGameState.board[4] = [".",".","X","O",".",".","O","X","X"];
+gGameState.board[5] = [".","X","O","O","O","O","X",".","X"];
+gGameState.board[6] = [".",".","X","O","O","X","X","X","X"];
+gGameState.board[7] = [".",".","X","O","O","O","X",".","O"];
+gGameState.board[8] = [".",".","X","X","X","O","X","O","."];

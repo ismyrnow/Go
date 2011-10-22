@@ -1,0 +1,3 @@
+http://popdevelop.com/2010/08/touching-the-web/
+http://developer.apple.com/library/safari/#documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/InteractiveVisualEffects/InteractiveVisualEffects.html#//apple_ref/doc/uid/TP40008032-CH3-SW3
+http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/

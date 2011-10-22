@@ -1,0 +1,9 @@
+The board is empty at the onset of the game.
+Black makes the first move, after which he and White alternate.
+A move consists of placing one stone of one's own color on an empty intersection on the board.
+A player may pass his turn at any time.
+A stone or solidly connected group of stones of one color is captured and removed from the board when all the intersections directly adjacent to it are occupied by the enemy. (Capture of the enemy takes precedence over self-capture.)
+No stone may be played so as to recreate an immediately former board position. (simple ko)
+Two consecutive passes end the game.
+A player's territory consists of all the points he has either occupied or surrounded.
+The player with more territory wins.

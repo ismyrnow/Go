@@ -1,0 +1,108 @@
+body {
+	--border: 1px solid #eee;
+	width: 320px;
+	height: 356px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: Verdana, Arial;
+}
+.clear {
+	clear: both;
+}
+.link {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+/**
+ * Board Section
+ */
+
+#boardSection {
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+#board {
+	margin: 10px 14px;
+	font: 40px/32px monospace;
+	float: left;
+	border: 2px solid #ddd;
+}
+#board .point {
+	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 0 4px;
+}
+#board .point:hover {
+	background-color: #eee;
+}
+#board .marked {
+	cursor: default;
+}
+
+
+/**
+ * Info Section
+ */
+ 
+#infoSection {
+	margin: 0 14px;
+	float: left;
+	text-align: left;
+}
+#turn {
+}
+#score {
+}
+
+
+/**
+ * Controls Section
+ */
+ 
+#controlsSection {
+	margin-right: 14px;
+	float: right;
+}
+#controlsSection .button {
+	float: left;
+	margin-left: 14px;
+}
+.button a {
+	padding: 5px 8px;
+	font-family: arial;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	background-color: #444;
+	color: #fff;
+	outline-width: 0;
+	border: 1px solid #000;
+	text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+	background-image: -webkit-gradient(linear,
+		left top, left bottom,
+		color-stop(0.0, rgba(255, 255, 255, 0.8)),
+		color-stop(0.01, rgba(255, 255, 255, 0.6)),
+		color-stop(0.4, rgba(255, 255, 255, 0.3)),
+		color-stop(0.4, rgba(255, 255, 255, 0.2)),
+		color-stop(1.0, rgba(255, 255, 255, 0.0)));
+	border-radius: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-transition: background 0.2s ease-in-out,
+		color 0.2s ease-in-out,
+		-webkit-box-shadow 0.2s ease-in-out;
+}
+.button a:hover, .button a:focus {
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
+	background-color: #666;
+}
+.button a:active {
+	margin-top: 1px;
+	background-color: #222;
+	color: #ccc;
+	-webkit-transition-duration: 0.0s;
+}
