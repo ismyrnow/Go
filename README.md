@@ -6,6 +6,7 @@ This project is a simple browser based implementation of the classic board game,
 Only game logic and some debugging tools were developed, which means pre- and post-game state handling isn't included.
 
 [HTML5 Version](http://ismyrnow.github.io/Go)
+
 [Text-based version](http://ismyrnow.github.io/Go/lite.html)
 
 Instructions
